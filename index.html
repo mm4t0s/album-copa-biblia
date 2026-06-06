@@ -630,6 +630,44 @@
   .avatar-img{width:46px;height:46px;border-radius:50%;flex:0 0 auto;object-fit:cover;
     border:3px solid #E3EEFF;box-shadow:0 2px 10px rgba(27,79,203,.15)}
 </style>
+
+  <!-- ===== FACEBOOK PIXEL ===== -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '843332785216175');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=843332785216175&ev=PageView&noscript=1"/>
+  </noscript>
+
+  <!-- ===== UTMIFY UTMs ===== -->
+  <script
+    src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+    data-utmify-prevent-xcod-sck
+    data-utmify-prevent-subids
+    async
+    defer
+  ></script>
+
+  <!-- ===== UTMIFY PIXEL ===== -->
+  <script>
+    window.pixelId = "6a1fbfa3e463faa428244d65";
+    var a = document.createElement("script");
+    a.setAttribute("async", "");
+    a.setAttribute("defer", "");
+    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+    document.head.appendChild(a);
+  </script>
+
 </head>
 <body>
 <template id="__bundler_thumbnail" data-bg-color="#F0F4FF">
