@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "v2.album.faithgoods.com.br"
+        }
+      ],
+      "destination": "/index-v2.html"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "v2.album.faithgoods.com.br"
+        }
+      ],
+      "destination": "/index-v2.html"
+    }
+  ]
+}
