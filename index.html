@@ -5,11 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Álbum da Copa da Bíblia — Faith Goods</title>
 <script>
+  const versionPages = {
+    "v2.album.faithgoods.com.br": "/index-v2.html",
+    "v3.album.faithgoods.com.br": "/index-v3.html"
+  };
+  const versionPage = versionPages[window.location.hostname];
+
   if (
-    window.location.hostname === "v2.album.faithgoods.com.br" &&
+    versionPage &&
     (window.location.pathname === "/" || window.location.pathname === "/index.html")
   ) {
-    window.location.replace("/index-v2.html");
+    window.location.replace(versionPage + window.location.search + window.location.hash);
   }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
