@@ -19,6 +19,26 @@
         }
       ],
       "destination": "/index-v2.html"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "v3.album.faithgoods.com.br"
+        }
+      ],
+      "destination": "/index-v3.html"
+    },
+    {
+      "source": "/index.html",
+      "has": [
+        {
+          "type": "host",
+          "value": "v3.album.faithgoods.com.br"
+        }
+      ],
+      "destination": "/index-v3.html"
     }
   ]
 }

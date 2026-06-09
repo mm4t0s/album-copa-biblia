@@ -4,6 +4,14 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Álbum da Copa da Bíblia — Faith Goods</title>
+<script>
+  if (
+    window.location.hostname === "v3.album.faithgoods.com.br" &&
+    window.location.pathname === "/index-v3.html"
+  ) {
+    window.history.replaceState(null, "", "/" + window.location.search + window.location.hash);
+  }
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
